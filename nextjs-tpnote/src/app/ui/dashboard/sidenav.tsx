@@ -4,14 +4,14 @@ import { PowerIcon } from '@heroicons/react/24/outline';
 
 export default function SideNav() {
   return (
-    <div className="flex h-16 flex-col px-3 py-4 md:px-2" style={{ background: '#657ac2' }}>
+    <div className="flex h-full flex-col px-3 py-4 md:px-2" style={{ background: '#657ac2' }}>
       <Link
         className="mb-2 flex h-20 items-end justify-start rounded-md p-4 md:h-40 text-purple-100"
         href="/"
       >
         <span
           className="absolute top-2 left-8"
-          style={{ fontSize: '1.2rem', fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}
+          style={{ fontSize: '1.2rem', fontFamily: 'SArial, sans-serif', fontWeight: 'bold' }}
         >
           Logo
         </span>
