@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div className="flex h-screen">
       {/* Partie gauche - occupe 2/3 de la largeur */}
-      <div className="w-2/3 h-full flex flex-col justify-between" style={{background: 'linear-gradient(to bottom left, #7289da, black 70%)'}}>
+      <div className="w-2/3 h-full flex flex-col justify-between" style={{background: 'linear-gradient(to bottom left, #7289da, black 40%)'}}>
         <div>
           <div className="flex justify-between items-center">
             <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold text-sm py-1 px-3 rounded-full flex items-center mt-4">
