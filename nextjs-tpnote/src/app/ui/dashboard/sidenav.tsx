@@ -20,7 +20,7 @@ export default function SideNav() {
         <NavLinks />
         <div className="h-auto rounded-md"></div>
         <form>
-          <button className="flex h-[48px] w-full items-center justify-center gap-2 rounded-md p-3 text-sm text-purple-100 font-medium hover:bg-purple-300 hover:text-purple-600">
+          <button className="flex h-[48px] w-full gap-2 rounded-md p-3 text-sm text-purple-100 font-medium hover:bg-purple-300 hover:text-purple-600">
             <PowerIcon className="w-6" />
             <div className="hidden md:block">Sign Out</div>
           </button>
